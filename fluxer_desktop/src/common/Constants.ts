@@ -14,8 +14,8 @@ export const CHANNEL_APP_PROTOCOLS: Record<BuildChannel, string> = {
 	development: 'fluxer-development',
 };
 export const APP_PROTOCOL = CHANNEL_APP_PROTOCOLS[BUILD_CHANNEL];
-export const STABLE_APP_URL = 'https://web.fluxer.app';
-export const CANARY_APP_URL = 'https://web.canary.fluxer.app';
+export const STABLE_APP_URL = 'https://fluxer.fredinand.xyz';
+export const CANARY_APP_URL = 'https://fluxer.fredinand.xyz';
 const DEVELOPMENT_APP_URL = 'http://localhost:8088';
 export const CHANNEL_APP_URLS: Record<BuildChannel, string> = {
 	stable: STABLE_APP_URL,
